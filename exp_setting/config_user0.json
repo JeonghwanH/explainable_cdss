@@ -1,0 +1,53 @@
+{
+    "user_num": 0,
+    "session0": {
+        "exp_data": [
+            23,
+            138,
+            0
+        ],
+        "exp_path": {
+            "data": "files/data",
+            "pred": "files/prediction",
+            "grad": "files/saliency",
+            "label1": "files/label",
+            "label2": "files/label2",
+            "features": "files/features"
+        },
+        "exp_filter_path": "files/weight.npy",
+        "exp_channel_list": [
+            "F3_A2",
+            "O1_A2",
+            "C3_A2",
+            "LOC_A2",
+            "ROC_A1"
+        ],
+        "exp_num_epochs": 22,
+        "exp_target_model": "DeepStrideNet"
+    },
+    "session1": {
+        "exp_data": [
+            1001,
+            0,
+            0
+        ],
+        "exp_path": {
+            "data": "files/data",
+            "pred": "files/prediction",
+            "grad": "files/saliency",
+            "label1": "files/label",
+            "label2": "files/label2",
+            "features": "files/features"
+        },
+        "exp_filter_path": "files/weight.npy",
+        "exp_channel_list": [
+            "F3_A2",
+            "O1_A2",
+            "C3_A2",
+            "LOC_A2",
+            "ROC_A1"
+        ],
+        "exp_num_epochs": 112,
+        "exp_target_model": "DeepStrideNet"
+    }
+}
